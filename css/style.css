@@ -10,7 +10,7 @@ html {
 
 @font-face {
   font-family: "Segoe UI Regular";
-  src: url("../font/Segoe UI.woff") format("woff");
+  src: url("/font/Segoe UI.woff") format("woff");
 }
 .container {
   font-family: "Segoe UI Regular", Tahoma, Verdana, sans-serif;
