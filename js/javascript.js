@@ -46,7 +46,7 @@ function Encriptar() {
       "¡Error!",
       "El campo no debe estar vacio",
       "error",
-      "/images/error.png",
+      "./images/error.png",
       "topCenter"
     );
   } else {
@@ -68,7 +68,7 @@ function Encriptar() {
       "¡Hecho!",
       "Se Encriptó correctamente",
       "success",
-      "/images/success.png",
+      "./images/success.png",
       "bottomCenter"
     );
   }
@@ -80,7 +80,7 @@ function Desencriptar() {
       "¡Error!",
       "El campo no debe estar vacio",
       "error",
-      "/images/error.png",
+      "./images/error.png",
       "topCenter"
     );
   } else {
@@ -97,7 +97,7 @@ function Desencriptar() {
       "¡Hecho!",
       "Se Desencriptó correctamente",
       "success",
-      "/images/success.png",
+      "./images/success.png",
       "bottomCenter"
     );
   }
@@ -110,7 +110,7 @@ function Copiar() {
         "Nada que copiar!",
         "El campo esta vacio",
         "info",
-        "/images/info.png",
+        "./images/info.png",
         "bottomCenter"
       )
     : (texto.select(),
@@ -119,7 +119,7 @@ function Copiar() {
         "¡Hecho!",
         "Texto Copiado",
         "success",
-        "/images/success.png",
+        "./images/success.png",
         "bottomCenter"
       ));
 }
@@ -137,7 +137,7 @@ function check(e) {
       "¡No disponible!",
       "Solo se permiten minúsculas",
       "info",
-      "/images/info.png",
+      "./images/info.png",
       "topCenter"
     );
     return true;
