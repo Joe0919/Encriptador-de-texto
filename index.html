@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/VanillaToasts-master/vanillatoasts.css">
+</head>
+
+
+<body class="container">
+    <header class="header">
+        <h1 class="titulo">ENCRIPTADOR Y DESENCRIPTADOR DE TEXTOS</h1>
+    </header>
+    
+    <main class="main">
+        <form class="form">
+            <div class="campos">
+                <div class="left">
+                    <label>Ingreso de Texto:</label>
+                    <textarea class="text" id="txIngreso" placeholder="Ingrese el texto a encriptar..." onkeypress="return check(event)"></textarea>
+                    
+                    
+                    <p class="advertencia" id="warning">*Solo letras minúsculas y sin caracteres especiales</p>
+                    <div class="container-botones">
+                        <input class="boton encript" id="btnEnc" type="button" value="Encriptar">
+                        <input class="boton desencript" id="btnDes" type="button" value="Desencriptar">
+                    </div>
+                </div class="left">
+                <div class="right" id="dv1">
+                    <label>Resultado:</label>
+                    <textarea class="text" id="txSalida" readonly placeholder="Aqui se muestra el resultado.."></textarea>
+                    <div class="container-botones">
+                        <input class="boton copy" id="btnCopiar" type="button" value="Copiar Texto">
+                        <input class="boton clean" id="btnLimpiar" type="button" value="Limpiar Campos">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <img class="imagen"
+            src="images/logo-one.png"
+            alt="logo_oracle">
+        <p>© Desarrollado por <strong>Joel Llallihuaman</strong></p>
+    </footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/javascript.js"></script>
+<script src="plugins/VanillaToasts-master/vanillatoasts.js"></script>
+</html>
