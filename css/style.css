@@ -188,7 +188,7 @@ html {
 
 .footer {
   background: #000;
-  padding: 2.1rem;
+  padding: 2.1rem 0;
   color: white;
   display: flex;
   align-items: center;
